@@ -104,3 +104,40 @@ header img{
     width: 80%;
     
 }
+
+.listas{
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.listas a{
+    text-decoration: none;
+    color: white;
+}
+
+.listas h1{
+    margin-bottom: 20px;
+}
+
+.filmes h1 {
+    color: #1071a9;
+    font-size: 35px ;
+}
+
+li{
+    font-size: 25px;
+}
+
+.musicas h1{
+    font-size: 35px;
+    color: rgb(163, 32, 32);
+}
+
+.series h1{
+    font-size: 35px;
+    color: #c1a40d;
+}
