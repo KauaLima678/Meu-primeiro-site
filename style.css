@@ -71,3 +71,36 @@ header img{
     font-size: 20px;
     width: 90%;
 }
+
+.Momentos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Momentos h1 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.fotos img{
+    width: 400px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.fotos img:nth-of-type(3){
+    height: 533px;
+}
+
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 80%;
+    
+}
